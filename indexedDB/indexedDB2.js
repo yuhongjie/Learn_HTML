@@ -2,10 +2,12 @@
   // Works with:
   // * Firefox >= 16.0
   // * Google Chrome >= 24.0 (you may need to get Google Chrome Canary)
-
+  //数据库名称
   var db_name = 'person',
       db_version = 1,// Use a long long for this value (don't use a float)
+      //表名称
       db_store_name = 'testTable',
+      //不同浏览器显示不一样
       indexedDB = window.indexedDB || window.webkitIndexedDB || window.mozIndexedDB || window.msIndexedDB,
       arrayKey = [ ],
       openRequest,
